@@ -1,25 +1,25 @@
 export let images = [
-    "/src/assets/image-product-1.jpg",
-    "/src/assets/image-product-2.jpg",
-    "/src/assets/image-product-3.jpg",
-    "/src/assets/image-product-4.jpg",
+    "/image-product-1.jpg",
+    "/image-product-2.jpg",
+    "/image-product-3.jpg",
+    "/image-product-4.jpg",
 ];
 
 export let thumbnails = [
     {
-        thumbnail: "/src/assets/image-product-1-thumbnail.jpg",
-        image: "/src/assets/image-product-1.jpg",
+        thumbnail: "/image-product-1-thumbnail.jpg",
+        image: "/image-product-1.jpg",
     },
     {
-        thumbnail: "/src/assets/image-product-2-thumbnail.jpg",
-        image: "/src/assets/image-product-2.jpg",
+        thumbnail: "/image-product-2-thumbnail.jpg",
+        image: "/image-product-2.jpg",
     },
     {
-        thumbnail: "/src/assets/image-product-3-thumbnail.jpg",
-        image: "/src/assets/image-product-3.jpg",
+        thumbnail: "/image-product-3-thumbnail.jpg",
+        image: "/image-product-3.jpg",
     },
     {
-        thumbnail: "/src/assets/image-product-4-thumbnail.jpg",
-        image: "/src/assets/image-product-4.jpg",
+        thumbnail: "/image-product-4-thumbnail.jpg",
+        image: "/image-product-4.jpg",
     },
 ];
