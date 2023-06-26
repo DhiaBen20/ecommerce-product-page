@@ -18,8 +18,8 @@ export default function Header() {
                 <MenuIcon />
             </button>
 
-            <a href="#" className="flex items-center md:mr-14">
-                <img src={logo} alt="" />
+            <a href="#" className="flex items-center md:mr-14" >
+                <img src={logo} alt="Sneakers" />
             </a>
 
             <MobileNavigation />

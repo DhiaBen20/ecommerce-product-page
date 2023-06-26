@@ -18,7 +18,7 @@ export default function AddToCartForm({ price, title }) {
             <div className="relative flex col-span-5 md:col-span-2">
                 <input
                     type="text"
-                    name="quantity"
+                    aria-label="quantity"
                     min={0}
                     value={quantity}
                     onChange={handleInputChange}
