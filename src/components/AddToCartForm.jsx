@@ -12,21 +12,20 @@ export default function AddToCartForm({ price, title }) {
 
     return (
         <form
-            className="mt-8 grid gap-4 grid-cols-5"
+            className="mt-8 grid grid-cols-5 gap-4"
             onSubmit={handleFormSubmit}
         >
-            <div className="relative flex col-span-5 md:col-span-2">
+            <div className="relative col-span-5 flex md:col-span-2">
                 <input
                     type="text"
                     aria-label="quantity"
-                    min={0}
                     value={quantity}
                     onChange={handleInputChange}
                     onKeyDown={handleKeyDown}
-                    className="min-w-0 rounded-xl flex-1 text-center py-5 md:py-4 font-bold text-xl bg-[hsl(223,64%,98%)]"
+                    className="min-w-0 flex-1 rounded-xl bg-[hsl(223,64%,98%)] py-5 text-center text-xl font-bold md:py-4"
                 />
                 <button
-                    className="absolute top-1/2 -translate-y-1/2 left-6 md:left-4 p-2 md:p-0"
+                    className="absolute left-6 top-1/2 -translate-y-1/2 p-2 md:left-4 md:p-0"
                     type="button"
                     aria-label="increment"
                     onClick={incrementQuantity}
@@ -34,7 +33,7 @@ export default function AddToCartForm({ price, title }) {
                     <PlusIcon />
                 </button>
                 <button
-                    className="absolute top-1/2 -translate-y-1/2 right-6 md:right-4 p-2 md:p-0"
+                    className="absolute right-6 top-1/2 -translate-y-1/2 p-2 md:right-4 md:p-0"
                     type="button"
                     aria-label="decrement"
                     onClick={decrementQuantity}
@@ -43,7 +42,7 @@ export default function AddToCartForm({ price, title }) {
                 </button>
             </div>
 
-            <button className="flex items-center justify-center rounded-xl gap-4 py-5 md:py-4 text-white font-bold shadow-2xl shadow-orange-300 bg-[hsl(26,100%,55%)] col-span-5 md:col-span-3">
+            <button className="col-span-5 flex items-center justify-center gap-4 rounded-xl bg-[hsl(26,100%,55%)] py-5 font-bold text-white shadow-2xl shadow-orange-300 md:col-span-3 md:py-4">
                 <CartIcon fill="#fff" />
                 Add to cart
             </button>
