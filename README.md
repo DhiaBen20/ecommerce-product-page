@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
+-   Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/ecommerce-product-page-Ya5yEyA5ZO)
 -   Live Site URL: [Netlify](https://quiet-salamander-10e269.netlify.app/)
 
 ## My process
