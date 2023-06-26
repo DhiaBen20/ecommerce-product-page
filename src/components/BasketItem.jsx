@@ -5,7 +5,7 @@ export default function BasketItem({ title, quantity, price, onDelete }) {
     return (
         <div className="flex items-center gap-4">
             <div className="w-14 rounded overflow-hidden">
-                <img src="/src/assets/image-product-1-thumbnail.jpg" alt="" />
+                <img src="/image-product-1-thumbnail.jpg" alt="" />
             </div>
             <div className="flex-1">
                 <h3 className="text-[hsl(219,9%,45%)]">{title}</h3>
